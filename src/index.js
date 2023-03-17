@@ -19,7 +19,7 @@ client.on('interactionCreate', (interaction) => {
             method: 'get',
             url: ENDPOINT
           });
-        interaction.reply({ content: "Starting Server, wait a few minutes before entering..."})
+        interaction.reply({ content: "Starting Server, please wait a few minutes before entering..."})
     }
 })
 
